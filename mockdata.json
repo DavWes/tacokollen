@@ -1,0 +1,20 @@
+{
+  "butiker": [
+    {
+      "namn": "ICA Maxi",
+      "varor": [
+        {"namn": "Tortillabröd 8-pack", "pris": 21.90},
+        {"namn": "Nötfärs 500g", "pris": 49.90},
+        {"namn": "Riven ost 200g", "pris": 24.90}
+      ]
+    },
+    {
+      "namn": "Willys",
+      "varor": [
+        {"namn": "Tortillabröd 8-pack", "pris": 18.90},
+        {"namn": "Nötfärs 500g", "pris": 46.90},
+        {"namn": "Riven ost 200g", "pris": 22.90}
+      ]
+    }
+  ]
+}

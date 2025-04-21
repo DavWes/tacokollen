@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TacoKollen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>TacoKollen</h1>
+  <p>Välj dina tacotillbehör:</p>
+
+  <form id="ingredients-form">
+    <label><input type="checkbox" name="ingredient" value="Tortillabröd 8-pack"> Tortillabröd</label><br>
+    <label><input type="checkbox" name="ingredient" value="Nötfärs 500g"> Nötfärs</label><br>
+    <label><input type="checkbox" name="ingredient" value="Riven ost 200g"> Riven ost</label><br>
+    <button type="submit">Jämför priser</button>
+  </form>
+
+  <h2>Prisjämförelse</h2>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
