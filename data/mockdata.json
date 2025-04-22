@@ -1,0 +1,133 @@
+{
+  "lastUpdated": "2024-02-20T12:00:00",
+  "butiker": [
+    {
+      "namn": "ICA Maxi",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 21.9, "kampanj": true },
+        { "namn": "Tortillabröd Medium 12-pack", "pris": 29.9 },
+        { "namn": "Tortillabröd Large 8-pack", "pris": 25.9 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 33.9 },
+        { "namn": "Tortillabröd Small 8-pack", "pris": 18.9 },
+        { "namn": "Nötfärs 500g", "pris": 49.9 },
+        { "namn": "Blandfärs 500g", "pris": 45.9 },
+        { "namn": "Blandfärs 1000g", "pris": 89.9 },
+        { "namn": "Riven ost 200g", "pris": 24.9 },
+        { "namn": "Salsa 300g", "pris": 19.9 },
+        { "namn": "Gräddfil 2dl", "pris": 12.9 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    },
+    {
+      "namn": "Willys",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 18.9 },
+        { "namn": "Tortillabröd Medium 12-pack", "pris": 26.9 },
+        { "namn": "Tortillabröd Large 8-pack", "pris": 22.9 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 30.9 },
+        { "namn": "Tortillabröd Small 8-pack", "pris": 16.9 },
+        { "namn": "Nötfärs 500g", "pris": 46.9 },
+        { "namn": "Blandfärs 500g", "pris": 43.9 },
+        { "namn": "Blandfärs 1000g", "pris": 85.9 },
+        { "namn": "Riven ost 200g", "pris": 22.9 },
+        { "namn": "Salsa 300g", "pris": 17.9 },
+        { "namn": "Gräddfil 2dl", "pris": 11.9 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    },
+    {
+      "namn": "Coop",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 20.9 },
+        { "namn": "Tortillabröd Medium 12-pack", "pris": 28.9 },
+        { "namn": "Tortillabröd Large 8-pack", "pris": 24.9 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 32.9 },
+        { "namn": "Tortillabröd Small 8-pack", "pris": 17.9 },
+        { "namn": "Nötfärs 500g", "pris": 48.9 },
+        { "namn": "Blandfärs 500g", "pris": 44.9 },
+        { "namn": "Blandfärs 1000g", "pris": 87.9 },
+        { "namn": "Riven ost 200g", "pris": 23.9 },
+        { "namn": "Salsa 300g", "pris": 18.9 },
+        { "namn": "Gräddfil 2dl", "pris": 12.5 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    },
+    {
+      "namn": "Hemköp",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 22.5 },
+        { "namn": "Tortillabröd Medium 12-pack", "pris": 30.5 },
+        { "namn": "Tortillabröd Large 8-pack", "pris": 26.5 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 34.5 },
+        { "namn": "Tortillabröd Small 8-pack", "pris": 19.5 },
+        { "namn": "Nötfärs 500g", "pris": 50.0 },
+        { "namn": "Blandfärs 500g", "pris": 46.0 },
+        { "namn": "Blandfärs 1000g", "pris": 90.0 },
+        { "namn": "Riven ost 200g", "pris": 25.0 },
+        { "namn": "Salsa 300g", "pris": 20.0 },
+        { "namn": "Gräddfil 2dl", "pris": 13.0 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    },
+    {
+      "namn": "Lidl",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 15.9 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 28.9 },
+        { "namn": "Nötfärs 500g", "pris": 42.9 },
+        { "namn": "Blandfärs 500g", "pris": 40.9 },
+        { "namn": "Riven ost 200g", "pris": 20.9 },
+        { "namn": "Salsa 300g", "pris": 15.9 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    },
+    {
+      "namn": "City Gross",
+      "varor": [
+        { "namn": "Tortillabröd Medium 8-pack", "pris": 19.9 },
+        { "namn": "Tortillabröd Large 12-pack", "pris": 30.9 },
+        { "namn": "Nötfärs 500g", "pris": 45.9 },
+        { "namn": "Blandfärs 500g", "pris": 43.9 },
+        { "namn": "Riven ost 200g", "pris": 22.9 },
+        { "namn": "Salsa 300g", "pris": 18.9 },
+        { "namn": "Guacamole 200g", "pris": 29.9 },
+        { "namn": "Majs 340g", "pris": 12.9 },
+        { "namn": "Tacokrydda", "pris": 12.9 },
+        { "namn": "Paprika", "pris": 7.9 },
+        { "namn": "Lök", "pris": 3.9 },
+        { "namn": "Lime", "pris": 6.9 },
+        { "namn": "Jalapenos 200g", "pris": 15.9 }
+      ]
+    }
+  ]
+}
