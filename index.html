@@ -1,26 +1,216 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TacoKollen</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>TacoKollen</h1>
-  <p>Välj dina tacotillbehör:</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jämför priser på tacotillbehör mellan olika matbutiker och hitta bästa priset"
+    />
+    <title>TacoKollen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="data/favicon.png" alt="TacoKollen logotyp" class="logo" />
+      <p class="site-description">
+        Markera ingredienserna du behöver för tacomyset så hittar vi butiken med
+        bästa priset.
+      </p>
+    </header>
 
-  <form id="ingredients-form">
-    <label><input type="checkbox" name="ingredient" value="Tortillabröd 8-pack"> Tortillabröd</label><br>
-    <label><input type="checkbox" name="ingredient" value="Nötfärs 500g"> Nötfärs</label><br>
-    <label><input type="checkbox" name="ingredient" value="Riven ost 200g"> Riven ost</label><br>
-    <button type="submit">Jämför priser</button>
-  </form>
+    <main>
+      <section>
+        <h2>Välj dina tacotillbehör</h2>
+        <form id="ingredients-form" aria-label="Ingrediensval">
+          <div class="ingredients-grid">
+            <div class="ingredient-group">
+              <h3>Basvaror</h3>
+              <!-- Tortillabröd -->
+              <div role="group">
+                <label>
+                  <input type="checkbox" id="tortilla-checkbox" />
+                  Tortillabröd
+                </label>
+                <div id="tortilla-options">
+                  <select id="tortilla-size" name="ingredient" disabled>
+                    <option value="">Välj mängd</option>
+                    <option value="Tortillabröd Small 8-pack">
+                      Small 8-pack
+                    </option>
+                    <option value="Tortillabröd Medium 8-pack">
+                      Medium 8-pack
+                    </option>
+                    <option value="Tortillabröd Medium 12-pack">
+                      Medium 12-pack
+                    </option>
+                    <option value="Tortillabröd Large 8-pack">
+                      Large 8-pack
+                    </option>
+                    <option value="Tortillabröd Large 12-pack">
+                      Large 12-pack
+                    </option>
+                  </select>
+                </div>
+              </div>
 
-  <h2>Prisjämförelse</h2>
-  <div id="results"></div>
+              <!-- Färs -->
+              <div role="group">
+                <label>
+                  <input type="checkbox" id="beef-checkbox" />
+                  Nötfärs
+                </label>
+                <div id="beef-options">
+                  <select id="beef-size" name="ingredient" disabled>
+                    <option value="">Välj mängd</option>
+                    <option value="Nötfärs 500g">500g</option>
+                    <option value="Nötfärs 1000g">1000g</option>
+                  </select>
+                </div>
+              </div>
 
-  <script src="script.js"></script>
-</body>
+              <div role="group">
+                <label>
+                  <input type="checkbox" id="mixed-beef-checkbox" />
+                  Blandfärs
+                </label>
+                <div id="mixed-beef-options">
+                  <select id="mixed-beef-size" name="ingredient" disabled>
+                    <option value="">Välj mängd</option>
+                    <option value="Blandfärs 500g">500g</option>
+                    <option value="Blandfärs 1000g">1000g</option>
+                  </select>
+                </div>
+              </div>
+
+              <label>
+                <input
+                  type="checkbox"
+                  id="krydda-checkbox"
+                  value="Tacokrydda"
+                  name="ingredient"
+                />
+                Tacokrydda
+              </label>
+            </div>
+
+            <div class="ingredient-group">
+              <h3>Grönsaker</h3>
+              <label>
+                <input
+                  type="checkbox"
+                  id="lok-checkbox"
+                  value="Lök"
+                  name="ingredient"
+                />
+                Lök
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="paprika-checkbox"
+                  value="Paprika"
+                  name="ingredient"
+                />
+                Paprika
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="lime-checkbox"
+                  value="Lime"
+                  name="ingredient"
+                />
+                Lime
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="jalapenos-checkbox"
+                  value="Jalapenos 200g"
+                  name="ingredient"
+                />
+                Jalapenos (200g)
+              </label>
+            </div>
+
+            <div class="ingredient-group">
+              <h3>Såser & Tillbehör</h3>
+              <label>
+                <input
+                  type="checkbox"
+                  id="salsa-checkbox"
+                  value="Salsa 300g"
+                  name="ingredient"
+                />
+                Salsa (300g)
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="sour-cream-checkbox"
+                  value="Gräddfil 2dl"
+                  name="ingredient"
+                />
+                Gräddfil (2dl)
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="guacamole-checkbox"
+                  value="Guacamole 200g"
+                  name="ingredient"
+                />
+                Guacamole (200g)
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="majs-checkbox"
+                  value="Majs 340g"
+                  name="ingredient"
+                />
+                Majs (340g)
+              </label>
+              <br />
+              <label>
+                <input
+                  type="checkbox"
+                  id="cheese-checkbox"
+                  value="Riven ost 200g"
+                  name="ingredient"
+                />
+                Riven ost (200g)
+              </label>
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button type="submit">Jämför priser</button>
+            <button type="button" id="reset-button">Återställ</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="price-comparison" id="price-comparison">
+        <h2>Prisjämförelse</h2>
+        <div id="results" class="fade-in"></div>
+      </section>
+    </main>
+  </body>
 </html>
